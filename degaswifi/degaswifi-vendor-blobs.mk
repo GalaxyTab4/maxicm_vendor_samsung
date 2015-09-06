@@ -128,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
     vendor/samsung/degaswifi/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
     vendor/samsung/degaswifi/proprietary/lib/libMarvellWireless.so:system/lib/libMarvellWireless.so \
-    vendor/samsung/degaswifi/proprietary/lib/libMrvlOmx.so:system/lib/libMrvlOmx.so \
     vendor/samsung/degaswifi/proprietary/lib/libacoustic.so:system/lib/libacoustic.so \
     vendor/samsung/degaswifi/proprietary/lib/libagps_hal.so:system/lib/libagps_hal.so \
     vendor/samsung/degaswifi/proprietary/lib/libcameraengine.so:system/lib/libcameraengine.so \
@@ -521,3 +520,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libwtpsp_ss.so:system/lib/libwtpsp_ss.so \
     vendor/samsung/degaswifi/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/samsung/degaswifi/proprietary/lib/xlfcore.jar:system/lib/xlfcore.jar
+
+#    vendor/samsung/degaswifi/proprietary/lib/libMrvlOmx.so:system/lib/libMrvlOmx.so 
