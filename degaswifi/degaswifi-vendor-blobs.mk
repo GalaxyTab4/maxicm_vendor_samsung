@@ -118,17 +118,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio_path.voip.mrvl.so:system/lib/hw/audio_path.voip.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio_path.vt.mrvl.so:system/lib/hw/audio_path.vt.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio_policy.mrvl.so:system/lib/hw/audio_policy.mrvl.so \
-    vendor/samsung/degaswifi/proprietary/lib/hw/camera.mrvl.so:system/lib/hw/camera.mrvl.so \
-    vendor/samsung/degaswifi/proprietary/lib/hw/consumerir.mrvl.so:system/lib/hw/consumerir.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/power.mrvl.so:system/lib/hw/power.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/sensors.mrvl.so:system/lib/hw/sensors.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/libGAL.so:system/lib/libGAL.so \
     vendor/samsung/degaswifi/proprietary/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
-    vendor/samsung/degaswifi/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
     vendor/samsung/degaswifi/proprietary/lib/libMarvellWireless.so:system/lib/libMarvellWireless.so \
-    vendor/samsung/degaswifi/proprietary/lib/libMrvlOmx.so:system/lib/libMrvlOmx.so \
     vendor/samsung/degaswifi/proprietary/lib/libacoustic.so:system/lib/libacoustic.so \
     vendor/samsung/degaswifi/proprietary/lib/libagps_hal.so:system/lib/libagps_hal.so \
     vendor/samsung/degaswifi/proprietary/lib/libcameraengine.so:system/lib/libcameraengine.so \
