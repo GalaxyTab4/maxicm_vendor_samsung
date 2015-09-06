@@ -518,3 +518,6 @@ PRODUCT_COPY_FILES += \
 
 PERMISSIONS += \
     vendor/samsung/degaswifi/proprietary/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
+
+#PERMISSIONS += \
+#    vendor/samsung/degaswifi/proprietary/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
