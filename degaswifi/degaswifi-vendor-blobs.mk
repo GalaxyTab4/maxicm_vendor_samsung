@@ -480,29 +480,29 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/samsung/degaswifi/proprietary/lib/xlfcore.jar:system/lib/xlfcore.jar
 
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecaacdec.so:system/lib/libcodecaacdec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecaacenc.so:system/lib/libcodecaacenc.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecamrnbdec.so:system/lib/libcodecamrnbdec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecamrnbenc.so:system/lib/libcodecamrnbenc.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecamrwbdec.so:system/lib/libcodecamrwbdec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecamrwbenc.so:system/lib/libcodecamrwbenc.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodeccoda7542dec.so:system/lib/libcodeccoda7542dec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodeccoda7542enc.so:system/lib/libcodeccoda7542enc.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecgifdec.so:system/lib/libcodecgifdec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodech263dec.so:system/lib/libcodech263dec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodech263enc.so:system/lib/libcodech263enc.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodech264dec.so:system/lib/libcodech264dec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodech264enc.so:system/lib/libcodech264enc.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecjpegdec.so:system/lib/libcodecjpegdec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecjpegenc.so:system/lib/libcodecjpegenc.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecmp3dec.so:system/lib/libcodecmp3dec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecmpeg2dec.so:system/lib/libcodecmpeg2dec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecmpeg4dec.so:system/lib/libcodecmpeg4dec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecmpeg4enc.so:system/lib/libcodecmpeg4enc.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecpngdec.so:system/lib/libcodecpngdec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecwmadec.so:system/lib/libcodecwmadec.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libcodecwmvdec.so:system/lib/libcodecwmvdec.so 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecaacdec.so:system/lib/libcodecaacdec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecaacenc.so:system/lib/libcodecaacenc.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecamrnbdec.so:system/lib/libcodecamrnbdec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecamrnbenc.so:system/lib/libcodecamrnbenc.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecamrwbdec.so:system/lib/libcodecamrwbdec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecamrwbenc.so:system/lib/libcodecamrwbenc.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodeccoda7542dec.so:system/lib/libcodeccoda7542dec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodeccoda7542enc.so:system/lib/libcodeccoda7542enc.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecgifdec.so:system/lib/libcodecgifdec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodech263dec.so:system/lib/libcodech263dec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodech263enc.so:system/lib/libcodech263enc.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodech264dec.so:system/lib/libcodech264dec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodech264enc.so:system/lib/libcodech264enc.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecjpegdec.so:system/lib/libcodecjpegdec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecjpegenc.so:system/lib/libcodecjpegenc.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecmp3dec.so:system/lib/libcodecmp3dec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecmpeg2dec.so:system/lib/libcodecmpeg2dec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecmpeg4dec.so:system/lib/libcodecmpeg4dec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecmpeg4enc.so:system/lib/libcodecmpeg4enc.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecpngdec.so:system/lib/libcodecpngdec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecwmadec.so:system/lib/libcodecwmadec.so \
+    vendor/samsung/degaswifi/proprietary/lib/libcodecwmvdec.so:system/lib/libcodecwmvdec.so 
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio.primary.mrvl.so:system/lib/hw/audio.primary.mrvl.so \
@@ -519,8 +519,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/hw/power.mrvl.so:system/lib/hw/power.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/sensors.mrvl.so:system/lib/hw/sensors.mrvl.so 
 
-PRODUCT_COPY_FILES += \
-    vendor/samsung/degaswifi/proprietary/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/degaswifi/proprietary/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/egl/libEGL_MRVL.so:system/lib/egl/libEGL_MRVL.so \
@@ -534,9 +534,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl \
-    vendor/samsung/degaswifi/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so
+    vendor/samsung/degaswifi/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so \
+    vendor/samsung/degaswifi/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so
 
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/degaswifi/proprietary/bin/MarvellWirelessDaemon:system/bin/MarvellWirelessDaemon \
-#    vendor/samsung/degaswifi/proprietary/lib/hw/camera.mrvl.so:system/lib/hw/camera.mrvl.so \
-#    vendor/samsung/degaswifi/proprietary/lib/libGAL.so:system/lib/libGAL.so \
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/bin/MarvellWirelessDaemon:system/bin/MarvellWirelessDaemon \
+    vendor/samsung/degaswifi/proprietary/lib/hw/camera.mrvl.so:system/lib/hw/camera.mrvl.so \
+    vendor/samsung/degaswifi/proprietary/lib/libGAL.so:system/lib/libGAL.so
