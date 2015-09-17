@@ -335,18 +335,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so \
     vendor/samsung/degaswifi/proprietary/lib/libgcastv2_base.so:system/lib/libgcastv2_base.so \
     vendor/samsung/degaswifi/proprietary/lib/libgcastv2_support.so:system/lib/libgcastv2_support.so \
-    vendor/samsung/degaswifi/proprietary/lib/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so \
-    vendor/samsung/degaswifi/proprietary/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
     vendor/samsung/degaswifi/proprietary/lib/libharfbuzz.so:system/lib/libharfbuzz.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhcellmain.so:system/lib/libhcellmain.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhnccairo.so:system/lib/libhnccairo.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhnccommon.so:system/lib/libhnccommon.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhncfont.so:system/lib/libhncfont.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhnchunspell.so:system/lib/libhnchunspell.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhncimageEffects.so:system/lib/libhncimageEffects.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhncstl.so:system/lib/libhncstl.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhshowmain.so:system/lib/libhshowmain.so \
-    vendor/samsung/degaswifi/proprietary/lib/libhwpmain.so:system/lib/libhwpmain.so \
     vendor/samsung/degaswifi/proprietary/lib/libimage.so:system/lib/libimage.so \
     vendor/samsung/degaswifi/proprietary/lib/libinvCupsjni.so:system/lib/libinvCupsjni.so \
     vendor/samsung/degaswifi/proprietary/lib/libinvusb.so:system/lib/libinvusb.so \
@@ -366,7 +355,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libjni_emailencryption.so:system/lib/libjni_emailencryption.so \
     vendor/samsung/degaswifi/proprietary/lib/libjni_emailspellcheck.so:system/lib/libjni_emailspellcheck.so \
     vendor/samsung/degaswifi/proprietary/lib/libjpega.so:system/lib/libjpega.so \
-    vendor/samsung/degaswifi/proprietary/lib/libk2ViewerJni.so:system/lib/libk2ViewerJni.so \
     vendor/samsung/degaswifi/proprietary/lib/libkeyutils.so:system/lib/libkeyutils.so \
     vendor/samsung/degaswifi/proprietary/lib/libkikin.so:system/lib/libkikin.so \
     vendor/samsung/degaswifi/proprietary/lib/libkikin_common.so:system/lib/libkikin_common.so \
@@ -436,7 +424,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
     vendor/samsung/degaswifi/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
     vendor/samsung/degaswifi/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
-    vendor/samsung/degaswifi/proprietary/lib/libsbrowser.so:system/lib/libsbrowser.so \
     vendor/samsung/degaswifi/proprietary/lib/libscone_proxy.so:system/lib/libscone_proxy.so \
     vendor/samsung/degaswifi/proprietary/lib/libsec_devenc.so:system/lib/libsec_devenc.so \
     vendor/samsung/degaswifi/proprietary/lib/libsec_ecryptfs.so:system/lib/libsec_ecryptfs.so \
@@ -515,5 +502,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libwebp_android.so:system/lib/libwebp_android.so \
     vendor/samsung/degaswifi/proprietary/lib/libwtpsp.so:system/lib/libwtpsp.so \
     vendor/samsung/degaswifi/proprietary/lib/libwtpsp_ss.so:system/lib/libwtpsp_ss.so \
-    vendor/samsung/degaswifi/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/samsung/degaswifi/proprietary/lib/xlfcore.jar:system/lib/xlfcore.jar
+
+
+#    vendor/samsung/degaswifi/proprietary/lib/libxml2.so:system/lib/libxml2.so
+#    vendor/samsung/degaswifi/proprietary/lib/libsbrowser.so:system/lib/libsbrowser.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhnccairo.so:system/lib/libhnccairo.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhnccommon.so:system/lib/libhnccommon.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhncfont.so:system/lib/libhncfont.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhnchunspell.so:system/lib/libhnchunspell.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhncimageEffects.so:system/lib/libhncimageEffects.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhncstl.so:system/lib/libhncstl.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhcellmain.so:system/lib/libhcellmain.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhshowmain.so:system/lib/libhshowmain.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libhwpmain.so:system/lib/libhwpmain.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libk2ViewerJni.so:system/lib/libk2ViewerJni.so \
+
+#    vendor/samsung/degaswifi/proprietary/lib/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so \
+#    vendor/samsung/degaswifi/proprietary/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
